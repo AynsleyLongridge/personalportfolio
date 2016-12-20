@@ -80,19 +80,6 @@ h3 {
 }
 
 
-.footer {
-    text-align: center;
-    padding: 1em 0;
-}
-.footer a {
-    color: #ccc;
-    font-size: 80%;
-}
-.footer .pure-menu a:hover,
-.footer .pure-menu a:focus {
-    background: none;
-}
-
 @media (min-width: 48em) {
     
  .content {
@@ -111,6 +98,10 @@ h3 {
         top: 0;
         bottom: 0;
     }
+}
+
+.pure-menu pure-menu-horizontal {
+    
 }
 
 
@@ -168,7 +159,8 @@ li a:hover {
 
 h4 {
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -180,6 +172,29 @@ h5 {
     text-align: center;
     
 }
+
+
+/*-------------BUTTON--------------*/
+
+.button {
+    
+    font-family: 'Roboto', sans-serif;
+    color: #565a5c;
+    background-color: #FFB174;
+    border-radius: 2px;
+    padding: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    background-color: #FFD2AF;
+    color: #565a5c;
+}
+
 
 
 /*----------------------MAIN --------*/
@@ -199,13 +214,53 @@ h1 {
 
 h2 {
     font-family: "Slabo 27px", sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     padding-top: 210px;
-    background-color: #FFD2AF;
+    color: #FFD2AF;
+    
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #565a5c;
+    
 }
 
 
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #565a5c;
+}
+
+h4 {
+    
+}
 
 
+/*----------------------------footer------------*/
+
+.social {
+    margin-left: 320px;
+}
+
+footer {
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.twitter {
+    padding-right: 20px;
+}
+
+.instagram{
+    padding-right: 20px;
+}
+
+.dribble 
 
 
