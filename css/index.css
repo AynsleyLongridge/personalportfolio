@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: 0.1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing:  border-box;
+  -moz-box-sizing:  border-box;
+  box-sizing:  border-box;
+  }
+
+
+/*------------ Blog layout -----------*/
+
+a {
+    text-decoration: none;
+    color: #FFD2AF;
+}
+a:hover,
+a:focus {
+    
+}
+
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+ 
+}
+
+.sidebar {
+    background: #565A5C;
+    color: #FFB174;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 1.5em;
+}
+.brand-title {
+    text-transform: none;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: #FFD2AF;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+
+
+.content { padding: 0px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+@media (min-width: 48em) {
+    
+ .content {
+    
+        margin-left: 25%;
+    } 
+    
+    }
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+
+
+
+
+
+/*------------parralax------------*/
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/*------------------ sidebar- -----------------*/
+
+.marque {
+   margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+  .Navigation {
+          /* To limit the menu width to the content of the menu: */
+          display: inline-block;
+          /* Or set the width explicitly: */
+          /* width: 10em; */
+      }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #565a5c;
+    margin-top: 60px;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: #FFB174;
+}
+
+
+.contact {
+    color: #FFB174;
+    position: relative;
+    top: 100px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+h5 {
+    font-family: "Slabo 27px", sans-serif;
+    border: 0px solid;
+    font-size: 1.2em;
+    padding:4px;
+    text-align: center;
+    
+}
+
+
+/*----------------------MAIN --------*/
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+h1 {
+    font-family: "Slabo 27px", sans-serif;
+
+}
+
+
+h2 {
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 5em;
+    padding-top: 210px;
+}
+
+
+
+
+
+
