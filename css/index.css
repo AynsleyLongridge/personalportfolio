@@ -245,6 +245,9 @@ h4 {
 
 .container {
     background-color: #FFD2AF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 
