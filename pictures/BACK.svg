@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="74px" viewBox="0 0 97 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-214.000000, -229.000000)" stroke-width="5" stroke="#FFB174">
+            <g id="left" transform="translate(264.932714, 265.171898) rotate(270.000000) translate(-264.932714, -265.171898) translate(231.432714, 221.671898)">
+                <polygon id="Triangle" points="34.6269145 0 66.1059276 86.5672862 5.68434189e-14 86.5672862"></polygon>
+                <path d="M29.9050625,15.7395066 L55.088273,84.9933355" id="Line" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
