@@ -299,7 +299,7 @@ hr{
    
     margin-right: 60px;
     margin-left: 570px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .introme {
@@ -397,15 +397,18 @@ hr{
     width: 35%;
     padding-left: 20px;
     margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom: 40px;
 }
 
 .cv2 {
     
     width:60%;
     float: right;
-    margin-top: -713px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-top: -990px;
+    padding-left: 50px;
+    padding-right: 60px;
+    
 }
 
 h7 {
