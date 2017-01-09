@@ -7,13 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-<!--[if lte IE 8]>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/grids-responsive-min.css">
-    <!--<![endif]-->
+
     
     </head>
     
@@ -33,7 +27,7 @@
               <ul>
         <li><a href="index.html">About</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="http://aynsleylongridge.tumblr.com/">Journal</a></li>
+        <li><a href="journal.html">Journal</a></li>
         <li><a href="cv.html">CV</a></li>
           </ul>
           </div>
@@ -54,15 +48,108 @@
 
     <div class="content pure-u-1 pure-u-md-3-4">
     
-    
-    <div class="container">
+      <div class="container">
         <a href="ishared.html"><img class="BACK" src="pictures/BACK.svg" width="3%"></a>
         <a href="takahe.html"> <img class="FORWARD" src="pictures/FORWARD.svg" width="3%"></a>
         
-        <center><h1>Elements</h1></center>  </div>
+        <center><h1>Elements website</h1></center>  </div>
+        
+        <h6>Using elements from the periodic table this project was created to help young children learn more about science in a fun and interesting way.</h6>
+        
+           <!-------------SKETCHES ------------------>
+       
+   <center> <img id="myImg" src="pictures/streetform/4.jpg" height="30%" width="30%"> 
+       
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="Initial Sketches"></div>
+</div>
+        
+    <script>
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+      
+        </script>
+       
+<img id="myImg" src="pictures/streetform/2.jpg" height="30%" width="30%">
+       
+       <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="Initial Sketches"></div>
+</div>
+       
+       
+       
+     <img id="myImg" src="pictures/streetform/3.jpg" height="30%" width="30%">    
+       
+       <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img03">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="Initial Sketches"></div>
+</div>
+       
+       
+  
+    
+    
+    <p>My target audience for this brief was children aged 7-10. I kept my content low and tried to focus on making the learning experience more relatable and fun. I based my idea around five characters which represented different elements from the periodic table.</p>
+        
+            
+
+        <center><img class="mockupred" src="pictures/elements/concept.png" width="80%" height="100%"></center>
+        
+       <p>For the illustrations in this project I used a graphics tablet and Illustrator to create drawings that were less structured for a more quirky approach. </p>
+        
+        <p class="ponce">To make the website more interactive I included a quiz to allow the children to test themselves on how much they have learnt throughout the site.</p>
+    <br>
+      <center><a class="button2" href="https://aynsleylongridge.github.io/elements/home.html" target="_blank">View project</a></center>
     
     
     
+    <br>
+        <br>
     
     
     

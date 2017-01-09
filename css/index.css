@@ -6,6 +6,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
     
     /* for 480px or less */
 @media screen and (max-width: 480px) {
@@ -55,6 +56,9 @@ h3 {
 .sidebar {
     background: #565A5C;
     color: #FFB174;
+     position: fixed;
+     width: 320px;
+    height: 100%;
 }
 
 .brand-title,
@@ -87,7 +91,7 @@ h3 {
 }
 
 
-@media (min-width: 48em) {
+
     
  .content {
     
@@ -105,11 +109,8 @@ h3 {
         top: 0;
         bottom: 0;
     }
-}
 
-.pure-menu pure-menu-horizontal {
-    
-}
+
 
 
 
@@ -144,6 +145,7 @@ ul {
     padding: 0;
     background-color: #565a5c;
     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 li a {
@@ -212,6 +214,26 @@ p {
 }
 
 
+.button2 {
+    
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    color: white;
+    background-color: #FFB174;
+    border-radius: 2px;
+    padding: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    background-color: #FFD2AF;
+    color: white;
+}
+
 
 /*----------------------MAIN --------*/
 
@@ -256,7 +278,7 @@ p {
 
 h6 { font-family: 'Roboto', sans-serif;
      font-size: 1.2em;
-     margin-left: 33px;
+     margin-left: 40px;
     margin-right: 33px;
     margin-bottom: 50px;
     
@@ -288,17 +310,24 @@ h8 {
 }
 
 .me {
-    float: right;
+   
     margin-right: 60px;
-    margin-left: 40px;
+    margin-left: 570px;
     margin-bottom: 17px;
+}
+
+.introme {
+   
+    margin-right: 350px;
+    margin-top: -470px;
+    margin-bottom: 43px;
 }
 
 /*------------------back/forward buttons----*/
 
 .BACK {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     left: 340px;
     top: 20px;
 
@@ -306,7 +335,7 @@ h8 {
 
 .FORWARD {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     right: 30px;
     top: 20px;
 
@@ -330,6 +359,14 @@ h8 {
     padding-top: 100px;
 }
 
+
+/*------------------mock ups-----------------*/
+
+.mockupred {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
 /*-------------------------------------------------iShared page---------------------------------*/
 
 .container {
@@ -340,6 +377,31 @@ h8 {
     padding-right: -90px;
 }
 
+.container1 {
+    background-color: #FFD2AF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: -90px;
+
+}
+
+
+.isharedback {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.youtube {
+    position: absolute;
+    z-index: 2;
+    left: 520px;
+    top: 900px;
+}
+
+.ponce {
+    margin-bottom: 30px;
+}
 
 /*------------------------CV COLUMS-----------------------*/
 
@@ -347,31 +409,6 @@ h8 {
 
 
 
-/************************************************************************************
-MEDIA QUERIES
-*************************************************************************************/
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
-
-
-	
-}
-
-/* for 700px or less */
-@media screen and (max-width: 600px) {
-
-    p {
-        font-size: 0.9em;
-    }
-
-
-}
-
-/* for 480px or less */
-@media screen and (max-width: 480px) {
-
-}
 
 /*---------------MODAL------------------*/
 
@@ -465,8 +502,11 @@ MEDIA QUERIES
 
 /*----------------------------footer------------*/
 
+
+
 .social {
-    margin-left: 320px;
+    margin-left: 25%;
+
 }
 
 footer {
@@ -500,5 +540,62 @@ footer {
 .dribble:hover {
     height: 5%
 }
+
+/*----------------media queries----*/
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+    
+    
+     
+    /*-------------about-----*/
+    
+    h2 {
+    margin-top: 230px;
+    font-size: 3em;
+    
+}
+    h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.05em;
+    
+}
+    
+    .introme {
+   
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #565a5c;
+}
+    
+    
+    
+    .me {
+        visibility: hidden;
+}
+
+.introme {
+   
+    margin-right: 0px;
+    margin-top: -210px;
+    margin-bottom: 43px;
+}
+    
+    .social {
+    margin-left: 0px;
+
+}
+}
+
+
 
 
