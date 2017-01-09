@@ -235,6 +235,7 @@ p {
 }
 
 
+/
 /*----------------------MAIN --------*/
 
 @media only screen and (max-device-width: 1024px) {
@@ -292,22 +293,7 @@ hr{
     
 }
 
-h7 {
-    font-family: "Slabo 27px", sans-serif;
-    color: #FFB174;
-    font-size: 1.5em;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-}
 
-h8 {
-    font-family: "Slabo 27px", sans-serif;
-    font-size: 1.3em;
-    margin-left: 90px;
-    margin-right: 50px;
-    
-}
 
 .me {
    
@@ -406,8 +392,111 @@ h8 {
 /*------------------------CV COLUMS-----------------------*/
 
 
+.cv1 {
+   
+    width: 35%;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+
+.cv2 {
+    
+    width:60%;
+    float: right;
+    margin-top: -713px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h7 {
+    font-family: "Slabo 27px", sans-serif;
+    color: #FFB174;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.PS {
+    margin-left: 90px;
+}
+
+h8 {
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 1.1em;
+    margin-left: 0px;
+    margin-right: 20px;
+    
+}
+
+.pcv {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 0.85em;
+}
 
 
+
+
+.basicBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #565A5C;
+  font-family: "Roboto", serif;
+ padding-left: 10px;
+    padding-right: 10px;
+  font-size: 1.em;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+    float: left;
+    margin-right: 5px;
+  
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+svg rect, svg path, svg polyline {
+  fill: none;
+  stroke: #FFB174;
+  stroke-width: 1;
+}
+
+.basicBox:hover svg rect, .swiggleBox:hover svg path, .checkBox:hover svg polyline {
+  stroke: #FFB174;
+}
+
+/* Basic Box */
+svg rect {
+  stroke-dasharray: 400, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.basicBox:hover svg rect {
+  stroke-width: 3;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+.s0 {
+    margin-left: 90px;
+}
+
+.s1 {
+    
+}
 
 
 /*---------------MODAL------------------*/
