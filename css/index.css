@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ h3 {
     background: #565A5C;
     color: #FFB174;
      position: fixed;
-     width: 320px;
+     width: 25%;
     height: 100%;
 }
 
@@ -65,7 +65,7 @@ h3 {
 .brand-tagline {
     margin: 0;
     font-family: "Slabo 27px", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .brand-title {
     text-transform: none;
@@ -129,6 +129,8 @@ h3 {
 /*------------------ sidebar- -----------------*/
 
 .marque {
+    position: relative;
+    height: 50%;
    margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -163,22 +165,26 @@ li a:hover {
 .contact {
     color: #FFB174;
     position: relative;
-    top: 100px;
+    top: 60px;
 }
 
 h4 {
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 0.8em;
 
 }
 
 h5 {
+    position: relative;
     font-family: "Slabo 27px", sans-serif;
     border: 0px solid;
-    font-size: 1.2em;
-    padding:4px;
-    text-align: center;
+    font-size: 1.1em;
+    padding:1px;
+    letter-spacing: 0.2em;
+    text-align:justify;
+    left: 27%;
     
 }
 
@@ -247,6 +253,8 @@ p {
 
 h1 {
     font-family: "Slabo 27px", sans-serif;
+    font-size: 1.2em;
+    
 
 }
 
@@ -296,7 +304,9 @@ hr{
 
 
 .me {
-   
+   position: relative;
+    width: 26%;
+    height: 26%;
     margin-right: 60px;
     margin-left: 570px;
     margin-bottom: 20px;
@@ -304,8 +314,9 @@ hr{
 
 .introme {
    
-    margin-right: 350px;
-    margin-top: -470px;
+    margin-right: 330px;
+    margin-left: 55px;
+    margin-top: -420px;
     margin-bottom: 43px;
 }
 
@@ -374,8 +385,8 @@ hr{
 
 .isharedback {
     
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .youtube {
@@ -396,7 +407,7 @@ hr{
    
     width: 35%;
     padding-left: 20px;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 70px;
     margin-bottom: 40px;
 }
@@ -405,7 +416,7 @@ hr{
     
     width:60%;
     float: right;
-    margin-top: -990px;
+    margin-top: -934px;
     padding-left: 50px;
     padding-right: 60px;
     
@@ -597,20 +608,19 @@ svg rect {
 
 
 .social {
-    margin-left: 25%;
+    position: relative;
+    top: 90px;
+    margin-bottom: 30px;
 
 }
 
-footer {
-    position: static;
-   background-color: #FFD2AF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom:
-}
 
 .twitter {
+    position: relative;
+    height: 16%;
+    width: 16%;
     padding-right: 20px;
+    
 }
 
 .twitter:hover {
@@ -619,6 +629,9 @@ footer {
 }
 
 .instagram{
+    position: relative;
+    height: 9%;
+    width: 14%;
     padding-right: 20px;
 }
 
@@ -627,7 +640,11 @@ footer {
     height: 20%
 }
 
-.dribble {}
+.dribble {
+    position: relative;
+    height: 4%;
+    width: 8%;
+}
 
 .dribble:hover {
     height: 5%
@@ -688,6 +705,150 @@ p {
 }
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+    
+    /*-------------about-----*/
+    
+    h2 {
+    margin-top: 230px;
+    font-size: 3em;
+    
+}
+    h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.05em;
+    
+}
+    
+    .introme {
+   
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #565a5c;
+}
 
+.me {
+        visibility: hidden;
+}
+
+.introme {
+    margin-right: 0px;
+    margin-top: -210px;
+    margin-bottom: 43px;
+}
+    
+    .social {
+    margin-left: 0px;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+    .sidebar {
+     
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+    .me {
+   position: relative;
+    width: 25%;
+    height: 25%;
+    margin-right: 60px;
+    margin-left: 870px;
+        margin-top: 100px;
+    margin-bottom: 30px;
+}
+    
+    .introme {
+     margin-right: 600px;
+    margin-top: -640px;
+    margin-bottom: 157px;
+}
+    p {
+        font-size: 1.4em;
+    }
+    footer{
+       
+        bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
 
 
